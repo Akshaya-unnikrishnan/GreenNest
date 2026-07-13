@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenNest:Air purifying Plants</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="icon" type="image/png" href="./images/Gemini_Generated_Image_p8knggp8knggp8kn.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</head>
+<body>
+    <!-- banner sticky -->
+<div class="fixed top-0 left-0 z-50 w-full bg-green-700 text-white text-center py-2 text-sm">
+
+🌿 FREE SHIPPING on Orders Above ₹999 | 🌱 Fresh Plants | 🚚 Fast Delivery | 💚 100% Healthy Plants
+</div>
+
+<!-- navbar -->
+ 
+<nav class="bg-white fixed w-full z-40 top-0 shadow-md border-b border-gray-200 mt-8">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+
+    <!-- Logo -->
+    <a href="#" class="flex items-center space-x-3">
+      <img src="./images/Gemini_Generated_Image_p8knggp8knggp8kn.png" class="h-12 w-14 rounded-full" alt="GreenNest Logo" />
+
+      <div>
+        <h1 class="text-2xl font-bold text-green-700">
+          GreenNest
+        </h1>
+        <p class="text-xs text-gray-500 hidden sm:block">
+          Bring Nature Into Your Home
+        </p>
+      </div>
+    </a>
+
+    <!-- Search + Mobile Button -->
+    <div class="flex items-center md:order-2 gap-3">
+
+      <!-- Search -->
+      <div class="relative hidden lg:block">
+
+        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+          <i class="fa-solid fa-magnifying-glass text-gray-400"></i>
+        </div>
+
+        <input
+          type="text"
+          placeholder="Search plants..."
+          class="w-64 pl-10 pr-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-green-500"
+        >
+      </div>
+
+      <!-- Cart -->
+      <button class="relative text-gray-700 hover:text-green-600">
+
+        <i class="fa-solid fa-cart-shopping text-xl"></i>
+
+        <!-- <span class="absolute -top-2 -right-2 bg-green-600 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">
+          2
+        </span> -->
+
+      </button>
+
+      <!-- Login -->
+      <button class="hidden lg:block bg-green-600 text-white px-5 py-2 rounded-full hover:bg-green-700 transition">
+        Login
+      </button>
+
+      <!-- Mobile Menu Button -->
+      <button data-collapse-toggle="navbar-menu"
+        type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-gray-600 rounded-lg md:hidden hover:bg-gray-100">
+
+        <svg class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24">
+
+          <path stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"/>
+
+        </svg>
+
+      </button>
+
+    </div>
+
+    <!-- Menu -->
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-menu">
+
+      <ul class="flex flex-col md:flex-row md:space-x-8 font-medium mt-4 md:mt-0">
+
+        <li>
+          <a href="index.html" class="block py-2 text-green-700 font-semibold hover:text-green-500">
+            Home
+          </a>
+        </li>
+
+
+        <li>
+          <a href="index.html#category" class="block py-2 text-gray-700 hover:text-green-600">
+            Categories
+          </a>
+        </li>
+
+        <li>
+          <a href="index.html#best" class="block py-2 text-gray-700 hover:text-green-600">
+            Best Sellers
+          </a>
+        </li>
+
+        <li>
+          <a href="index.html#tips" class="block py-2 text-gray-700 hover:text-green-600">
+            Care Tips
+          </a>
+        </li>
+
+        <li>
+          <a href="index.html#about" class="block py-2 text-gray-700 hover:text-green-600">
+            About
+          </a>
+        </li>
+
+        <li>
+          <a href="index.html#contact" class="block py-2 text-gray-700 hover:text-green-600">
+            Contact
+          </a>
+        </li>
+
+        <!-- Mobile Search -->
+        <li class="lg:hidden mt-4">
+
+          <input
+            type="text"
+            placeholder="Search plants..."
+            class="w-full border border-gray-300 rounded-full px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500">
+
+        </li>
+
+        <!-- Mobile Login -->
+        <li class="lg:hidden mt-3">
+
+          <button class="w-full bg-green-600 text-white py-2 rounded-full hover:bg-green-700">
+            Login
+          </button>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+</nav>
+  
+<section id="air-purifying-plants" class="py-10 mt-20">
+    <h1 class="text-3xl font-extrabold m-4 text-green-600 text-center">
+        Air Purifying Plants
+    </h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-8">
+
+        <!-- Card 1 -->
+        <div class="w-full max-w-sm bg-white p-6 border border-gray-200 rounded-xl shadow-lg">
+            <a href="#">
+                <img class="rounded-lg mb-6 h-60 w-full object-cover"
+                    src="https://theaffordableorganicstore.com/cdn/shop/files/3cde1db0-e2f1-4f80-a38f-4afa1dd013a1_20260302_234057_0000.webp?v=1772700970"
+                    alt="Snake Plant" />
+            </a>
+
+            <div>
+                <div class="flex items-center space-x-3 mb-4">
+                    <div class="flex text-yellow-400">
+                        ★★★★★
+                    </div>
+                    <span class="bg-green-100 text-green-700 text-xs font-medium px-2 py-1 rounded">
+                        4.9 / 5
+                    </span>
+                </div>
+
+                <h5 class="text-xl font-bold text-gray-800">
+                    Snake Plant
+                </h5>
+
+                <p class="text-gray-600 text-sm mt-2">
+                    One of the best air-purifying plants that removes indoor toxins and thrives with minimal care.
+                </p>
+
+                <div class="flex items-center justify-between mt-6">
+                    <span class="text-3xl font-extrabold text-green-700">₹599</span>
+
+                    <button
+                        class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-semibold">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="w-full max-w-sm bg-white p-6 border border-gray-200 rounded-xl shadow-lg">
+            <a href="#">
+                <img class="rounded-lg mb-6 h-60 w-full object-cover"
+                    src="https://www.mydomaine.com/thmb/N3StDx3PyGbF0Pwafv-P9-qiNZU=/900x0/filters:no_upscale():strip_icc()/1566417254329_20190821-1566417255317-b9314f1d9f7a4668a466c5ffb1913a8f.jpg"
+                    alt="Peace Lily" />
+            </a>
+
+            <div>
+                <div class="flex items-center space-x-3 mb-4">
+                    <div class="flex text-yellow-400">
+                        ★★★★★
+                    </div>
+                    <span class="bg-green-100 text-green-700 text-xs font-medium px-2 py-1 rounded">
+                        4.8 / 5
+                    </span>
+                </div>
+
+                <h5 class="text-xl font-bold text-gray-800">
+                    Peace Lily
+                </h5>
+
+                <p class="text-gray-600 text-sm mt-2">
+                    Beautiful flowering plant that naturally filters harmful pollutants while enhancing your décor.
+                </p>
+
+                <div class="flex items-center justify-between mt-6">
+                    <span class="text-3xl font-extrabold text-green-700">₹699</span>
+
+                    <button
+                        class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-semibold">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="w-full max-w-sm bg-white p-6 border border-gray-200 rounded-xl shadow-lg">
+            <a href="#">
+                <img class="rounded-lg mb-6 h-60 w-full object-cover"
+                    src="https://m.media-amazon.com/images/I/61bfaK6hWpL._AC_UF1000,1000_QL80_.jpg"
+                    alt="Spider Plant" />
+            </a>
+
+            <div>
+                <div class="flex items-center space-x-3 mb-4">
+                    <div class="flex text-yellow-400">
+                        ★★★★★
+                    </div>
+                    <span class="bg-green-100 text-green-700 text-xs font-medium px-2 py-1 rounded">
+                        4.7 / 5
+                    </span>
+                </div>
+
+                <h5 class="text-xl font-bold text-gray-800">
+                    Spider Plant
+                </h5>
+
+                <p class="text-gray-600 text-sm mt-2">
+                    Excellent for removing carbon monoxide and formaldehyde while adding lush greenery indoors.
+                </p>
+
+                <div class="flex items-center justify-between mt-6">
+                    <span class="text-3xl font-extrabold text-green-700">₹549</span>
+
+                    <button
+                        class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-semibold">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="w-full max-w-sm bg-white p-6 border border-gray-200 rounded-xl shadow-lg">
+            <a href="#">
+                <img class="rounded-lg mb-6 h-60 w-full object-cover"
+                    src="https://nurserynisarga.in/wp-content/uploads/2019/03/areca.webp"
+                    alt="Areca Palm" />
+            </a>
+
+            <div>
+                <div class="flex items-center space-x-3 mb-4">
+                    <div class="flex text-yellow-400">
+                        ★★★★★
+                    </div>
+                    <span class="bg-green-100 text-green-700 text-xs font-medium px-2 py-1 rounded">
+                        4.9 / 5
+                    </span>
+                </div>
+
+                <h5 class="text-xl font-bold text-gray-800">
+                    Areca Palm
+                </h5>
+
+                <p class="text-gray-600 text-sm mt-2">
+                    A natural humidifier that improves indoor air quality while giving your home a tropical look.
+                </p>
+
+                <div class="flex items-center justify-between mt-6">
+                    <span class="text-3xl font-extrabold text-green-700">₹899</span>
+
+                    <button
+                        class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-semibold">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+<footer id="contact" class="bg-green-900 text-white mt-16">
+
+    <div class="max-w-7xl mx-auto px-6 py-12">
+
+        
+
+        <!-- Footer Links -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-10">
+
+            <!-- Company -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4 text-green-300">
+                    GreenNest
+                </h3>
+
+                <ul class="space-y-3 text-green-100">
+                    <li><a href="#" class="hover:text-white">About Us</a></li>
+                    <li><a href="#" class="hover:text-white">Our Story</a></li>
+                    <li><a href="#" class="hover:text-white">Care Tips</a></li>
+                    <li><a href="#" class="hover:text-white">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Shop -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4 text-green-300">
+                    Shop
+                </h3>
+
+                <ul class="space-y-3 text-green-100">
+                    <li><a href="#" class="hover:text-white">Indoor Plants</a></li>
+                    <li><a href="#" class="hover:text-white">Succulents</a></li>
+                    <li><a href="#" class="hover:text-white">Flowering Plants</a></li>
+                    <li><a href="#" class="hover:text-white">Pots & Planters</a></li>
+                </ul>
+            </div>
+
+            <!-- Support -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4 text-green-300">
+                    Customer Support
+                </h3>
+
+                <ul class="space-y-3 text-green-100">
+                    <li><a href="#" class="hover:text-white">FAQs</a></li>
+                    <li><a href="#" class="hover:text-white">Shipping</a></li>
+                    <li><a href="#" class="hover:text-white">Returns</a></li>
+                    <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4 text-green-300">
+                    Get in Touch
+                </h3>
+
+                <ul class="space-y-3 text-green-100">
+                    <li><i class="fa-solid fa-location-dot mr-2"></i> Kerala, India</li>
+                    <li><i class="fa-solid fa-phone mr-2"></i> +91 98765 43210</li>
+                    <li><i class="fa-solid fa-envelope mr-2"></i> info@greennest.com</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Bottom -->
+        <div class="border-t border-green-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
+
+            <p class="text-green-200 text-sm">
+                © 2026 GreenNest. All Rights Reserved.
+            </p>
+
+            <!-- Social Icons -->
+            <div class="flex space-x-5 mt-4 md:mt-0 text-xl">
+
+                <a href="#" class="hover:text-green-300">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="hover:text-green-300">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" class="hover:text-green-300">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </a>
+
+                <a href="#" class="hover:text-green-300">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="#" class="hover:text-green-300">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+</body>
+</html>
